@@ -27,8 +27,7 @@ class Navigasi extends React.Component {
   }
   render() {
     return (
-      <div>
-      <Navbar color="light" light expand="md" className="border py-2 sticky-top">
+      <Navbar color="light" light expand="md" className="border py-2">
         <NavbarBrand href="/">
           <img src={Logo} height="50" class="d-inline-block align-center pr-2" alt="Santren Koding" /> Santren Koding
         </NavbarBrand>
@@ -56,7 +55,6 @@ class Navigasi extends React.Component {
           </Nav>
         </Collapse>
       </Navbar>
-      </div>
     );
   }
 }

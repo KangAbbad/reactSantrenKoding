@@ -1,10 +1,12 @@
 import React from 'react';
+import {
+    Container } from 'reactstrap';
 
 const kontak = (props) => {
     return(
         <div>
             <section id="kontak" className="py-5 text-center">
-                <div className="container">
+                <Container>
                     <h3 className="mb-4 pb-2">Kontak</h3>
                     <p className="m-0">
                         <i className="fas fa-phone fa-sm"></i> 082225111587</p>
@@ -16,7 +18,7 @@ const kontak = (props) => {
                         Jl. Ngesrep Tim. III No.67, Sumurboto, Banyumanik,
                         <br /> Kota Semarang, Jawa Tengah 50269
                     </p>
-                </div>
+                </Container>
             </section>
         </div>
     )   
