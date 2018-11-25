@@ -1,15 +1,15 @@
 import React, { Component } from 'react';
 
-import Body from './component/body';
+import Body from './component/Body';
 import Navigasi from "./component/Navigasi";
-import Hero from "./component/hero";
-import Kajian from  './component/kajian';
-import Kilat from  './component/kilat';
-import Kegiatan from  './component/kegiatan';
-import Mondok from  './component/mondok';
-import Sponsor from  './component/sponsor';
-import Kontak from  './component/kontak';
-import Footer from  './component/footer';
+import Hero from "./component/Hero";
+import Kajian from  './component/Kajian';
+import Kilat from  './component/Kilat';
+import Kegiatan from  './component/Kegiatan';
+import Mondok from  './component/Mondok';
+import Sponsor from  './component/Sponsor';
+import Kontak from  './component/Kontak';
+import Footer from  './component/Footer';
 
 class App extends Component {
   render() {
